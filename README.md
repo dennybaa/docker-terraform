@@ -5,4 +5,8 @@ Contains specific software for a particular cloud provider such as for example G
 
 ## GCE Terrafrom
 
-Based on the latest [Google Cloud SDK Docker image](https://hub.docker.com/r/google/cloud-sdk/).
+Based on the latest [Google Cloud SDK Docker image](https://hub.docker.com/r/google/cloud-sdk/). Here's invocation example:
+
+```
+docker run --rm -it -v $HOME:/home/user -v $(pwd):/data dennybaa/terraform
+```
